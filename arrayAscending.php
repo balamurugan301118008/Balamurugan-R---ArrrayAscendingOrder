@@ -1,6 +1,6 @@
 <?php
 
-$input = [21,34,2];
+$input = [2,32,1];
 $finalResults = [];
 for($i=0; $i<count($input); $i++){
     if($input[$i] < $input[1]){
@@ -11,7 +11,6 @@ for($i=0; $i<count($input); $i++){
         array_push($finalResults,$input);
     }
     if($input[1] < $input[2]){
-
         $swapOne = $input[1];
         $swapTwo =  $input[2];
         $input[1] = $swapTwo;
